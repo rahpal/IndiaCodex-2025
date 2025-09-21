@@ -1,5 +1,8 @@
 # CDS-CODEX
 
+## You can find the codebase in the below drive link [NOTE: We are unable to push our codebase to github]
+https://drive.google.com/file/d/1mK9e4nOmrKZW-tyzNFgT4kC6f_WUOO-d/view?usp=drive_link
+
 ## 🚀 Project: STAKING PLATFORM
 
 ### 📄 Project Description
@@ -36,9 +39,6 @@ A decentralized staking platform built on Cardano that empowers users to easily 
 - **Solution**: Our platform integrates liquid staking models that allow users to receive tradable tokens while staking.
 
 ---
-
-## You can find the codebase in the below drive link
-https://drive.google.com/file/d/1mK9e4nOmrKZW-tyzNFgT4kC6f_WUOO-d/view?usp=drive_link
 
 ## 🛠️ Tech Stack
 
