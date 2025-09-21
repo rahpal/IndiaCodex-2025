@@ -66,7 +66,7 @@ A decentralized staking platform built on Cardano that empowers users to easily 
 
 ## 🖼️ Presentation
 
-- 📊 [View Our PPT](./CDS-CODEX-Staking-Presentation.pdf) *(Make sure the file is uploaded to this folder)*
+- 📊 [View Our PPT](https://docs.google.com/presentation/d/1zOmAN1SQn0PJQuRqrVLHBVjVgrqpyQRnFsuin7UT-MI) *(Make sure the file is uploaded to this folder)*
 
 ---
 

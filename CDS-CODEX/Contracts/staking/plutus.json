@@ -1,0 +1,72 @@
+{
+  "preamble": {
+    "title": "codex25/staking",
+    "description": "Aiken contracts for project 'codex25/staking'",
+    "version": "0.0.1",
+    "plutusVersion": "v3",
+    "compiler": {
+      "name": "Aiken",
+      "version": "v1.1.19+e525483"
+    },
+    "license": "Apache-2.0"
+  },
+  "validators": [
+    {
+      "title": "staking.vesting.spend",
+      "datum": {
+        "title": "_datum_opt",
+        "schema": {
+          "$ref": "#/definitions/staking~1VestingDatum"
+        }
+      },
+      "redeemer": {
+        "title": "_redeemer",
+        "schema": {
+          "$ref": "#/definitions/Data"
+        }
+      },
+      "compiledCode": "58b801010029800aba2aba1aab9faab9eaab9dab9a48888896600264646644b30013370e900118031baa0018994c004c028006601460160032259800800c528456600266e3cdd71806000a451c7fedb13d2a85783b14fbdea257773bb5e23ce86b88d8606cdc0d671b008a518998010011806800a010402c911198008009bac300d300e300e300e300e300e300e300e300e300b3754601a01030073754003164014600e002600e6010002600e00260066ea801e29344d9590011",
+      "hash": "6277fdf57ca6013e615af6ea2eb48a1aff5277f74d003b0b49666234"
+    },
+    {
+      "title": "staking.vesting.else",
+      "redeemer": {
+        "schema": {}
+      },
+      "compiledCode": "58b801010029800aba2aba1aab9faab9eaab9dab9a48888896600264646644b30013370e900118031baa0018994c004c028006601460160032259800800c528456600266e3cdd71806000a451c7fedb13d2a85783b14fbdea257773bb5e23ce86b88d8606cdc0d671b008a518998010011806800a010402c911198008009bac300d300e300e300e300e300e300e300e300e300b3754601a01030073754003164014600e002600e6010002600e00260066ea801e29344d9590011",
+      "hash": "6277fdf57ca6013e615af6ea2eb48a1aff5277f74d003b0b49666234"
+    }
+  ],
+  "definitions": {
+    "Data": {
+      "title": "Data",
+      "description": "Any Plutus data."
+    },
+    "aiken/crypto/VerificationKeyHash": {
+      "title": "VerificationKeyHash",
+      "dataType": "bytes"
+    },
+    "staking/VestingDatum": {
+      "title": "VestingDatum",
+      "anyOf": [
+        {
+          "title": "VestingDatum",
+          "dataType": "constructor",
+          "index": 0,
+          "fields": [
+            {
+              "title": "owner",
+              "description": "Owner's credentials",
+              "$ref": "#/definitions/aiken~1crypto~1VerificationKeyHash"
+            },
+            {
+              "title": "beneficiary",
+              "description": "Beneficiary's credentials",
+              "$ref": "#/definitions/aiken~1crypto~1VerificationKeyHash"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
