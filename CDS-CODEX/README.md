@@ -37,6 +37,9 @@ A decentralized staking platform built on Cardano that empowers users to easily 
 
 ---
 
+## You can find the codebase in the below drive link
+https://drive.google.com/file/d/1mK9e4nOmrKZW-tyzNFgT4kC6f_WUOO-d/view?usp=drive_link
+
 ## 🛠️ Tech Stack
 
 - **Smart Contracts**: [Aiken](https://aiken-lang.org/)
